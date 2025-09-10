@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="newstyles.css" />
+</head>
+<body>
+  <h1>Simple Quiz App</h1>
+
+  <!-- Start button -->
+  <button id="start-btn">Start Quiz</button>
+  <button id="next-btn" class="hidden">Next</button>
+
+  <!-- Question container -->
+  <div id="question-container" class="hidden">
+    <p id="progress"></p>   <!-- Shows "Question 2 of 3" -->
+    <p id="timer"></p>      <!-- Shows countdown -->
+    <h2 id="question-text"></h2>
+    <ul id="choices-list"></ul> <!-- Answer choices go here -->
+  </div>
+
+  <!-- Result container -->
+  <div id="result-container" class="hidden">
+    <p id="score"></p>         <!-- Final score -->
+    <p id="high-score"></p>    <!-- High score -->
+    <button id="restart-btn">Restart Quiz</button>
+  </div>
+
+  <!-- Link to your JavaScript -->
+  <script src="newscript.js"></script>
+</body>
+</html>
