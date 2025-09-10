@@ -1,2 +1,2 @@
-# Hey there this ia Quiz app project
+# Hey there this is Quiz app project
 using HTML,CSS & JAVASCRIPT
